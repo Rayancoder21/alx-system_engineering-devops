@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PASH | tr ":" "\n" | wc -l
