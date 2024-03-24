@@ -1,9 +1,8 @@
-JPG LINK : 
-ABOUT THIS INFRASTRUCTURE:
+JPG LINK : https://ibb.co/RpvMC2y
 
+ABOUT THIS INFRASTRUCTURE:
 * For every additional element, why you are adding it:
 For redunduncy.
-
 * What distribution algorithm your load balancer is configured with and how it works?
 Round-Robin distribution Algorithm.
 * Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
