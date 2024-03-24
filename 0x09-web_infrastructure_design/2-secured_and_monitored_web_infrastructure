@@ -1,0 +1,22 @@
+JPG LINK:
+
+ABOUT THIS INFRASTRUCTURE:
+*For every additional element, why you are adding it:
+security
+What are firewalls for?
+they monitors and filter incoming and outgoing network traffic.
+*Why is the traffic served over HTTPS?
+because it uses encryption for secure communication over a computer network.
+*What monitoring is used for?
+collect health and performance data from servers, virtual machines, containers, databases, and other backend components.
+*How the monitoring tool is collecting data?
+A Collector is a small application that gathers log data from your servers and sends it to the Sumo Logic Cloud.
+*Explain what to do if you want to monitor your web server QPS:
+monitor it from the server and the network.
+
+ISSUES WITH THIS INFRASTRUCTURE:
+
+1-Terminating SSL at the load balancer level is an issue because the traffic between the load balancer and the web servers is unencrypted.
+2-Having only one MySQL server capable of accepting writes is an issue because if the master goes down, the application cannot write to the database anymore.
+3-Having servers with all the same components (database, web server and application server) might be a problem because their consumption will not grow the same way between each of them (we might want to have more database servers than application servers for instance) and when there is maintenance performed on a server for a specific component, it will affect other components that are on it.
+4-Load-balancer is still a SPOF.
