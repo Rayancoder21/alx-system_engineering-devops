@@ -15,5 +15,5 @@ A primary node is READ/WRITE whie a replica is READ only.
 
 ISSUES WITH THIS INFRASTRUCTURE:
 1- still is a single point of faliure ( the load balancer)
-2- Security issues (no firewall, no HTTPS)
+2- Security issues (no firewall, no HTTPS, traffic is unencrypted)
 3- No monitoring
