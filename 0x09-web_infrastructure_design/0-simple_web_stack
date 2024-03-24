@@ -1,1 +1,31 @@
-https://imgur.com/a/tMHHbtj
+JPG LINK: https://imgur.com/a/tMHHbtj
+
+ABOUT THIS INFRASTRUCTURE:
+
+•What is a server?
+A server is piece of computer hardware or software (physical or virtual) that runs an OS provides services for other devices or programs, and is typically located in a data center.
+
+•What is the role of the domain name?
+DNS’s role is to map domain names into IP addresses.
+
+•What type of DNS record www is in www.foobar.com?
+It is a canonical name that points to an A record that is mapped into an IP address.
+
+•What is the role of the web server?
+To serve the static content of web pages.
+
+•What is the role of the application server?
+To serve (compute) the dynamic content of web pages.
+
+•What is the role of the database?
+To store the application data.
+
+•What is the server using to communicate with the computer of the user requesting the website?
+TCP/IP network protocol.
+
+
+ ISSUES WITH THIS INFRASTRUCTURE:
+1.	The server is a single point of failure because nothing is redundant.
+2.	Downtime when maintenance needed (like deploying new code web server needs to be restarted)
+3.	Cannot scale if too much incoming traffic
+
