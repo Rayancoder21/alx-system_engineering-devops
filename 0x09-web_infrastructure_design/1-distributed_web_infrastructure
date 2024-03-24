@@ -1,0 +1,19 @@
+JPG LINK : 
+ABOUT THIS INFRASTRUCTURE:
+
+* For every additional element, why you are adding it:
+For redunduncy.
+
+* What distribution algorithm your load balancer is configured with and how it works?
+Round-Robin distribution Algorithm.
+* Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
+It is active-active, where it is connected to the clients and all the servers.
+* How a database Primary-Replica (Master-Slave) cluster works?
+It uses one dtatbase as a primary and the others as replicas for redunduncy purposes.
+* What is the difference between the Primary node and the Replica node in regard to the application?
+A primary node is READ/WRITE whie a replica is READ only.
+
+ISSUES WITH THIS INFRASTRUCTURE:
+1- still is a single point of faliure ( the load balancer)
+2- Security issues (no firewall, no HTTPS)
+3- No monitoring
