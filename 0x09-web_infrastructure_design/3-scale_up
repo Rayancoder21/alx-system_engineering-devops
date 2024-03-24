@@ -1,4 +1,4 @@
-JPG LINK:
+JPG LINK: https://ibb.co/Njp1gFL
 
 ABOUT THIS INFRASTRUCTURE:
 * An additional load balancer was added to solve the issue of SPOF, it is configured as a cluster so that if one fails, the other takes over.
